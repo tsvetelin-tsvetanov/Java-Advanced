@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d7d015-de5f-498b-9022-e307e2b5517f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_03_MaximumElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_04_BasicQueueOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_05_CalculateSequenceWithQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,11 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_04_BasicQueueOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+            <state relative-caret-position="217">
+              <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_05_CalculateSequenceWithQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/_02_BasicStackOperations.java" />
         <option value="$PROJECT_DIR$/src/_03_MaximumElement.java" />
         <option value="$PROJECT_DIR$/src/_04_BasicQueueOperations.java" />
+        <option value="$PROJECT_DIR$/src/_05_CalculateSequenceWithQueue.java" />
       </list>
     </option>
   </component>
@@ -119,7 +130,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543056136901" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543057670327" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -135,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._04_BasicQueueOperations">
+  <component name="RunManager" selected="Application._05_CalculateSequenceWithQueue">
     <configuration name="_01_ReverseNumbersWithAStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01_ReverseNumbersWithAStack" />
       <module name="Stacks and Queues" />
@@ -164,14 +175,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_05_CalculateSequenceWithQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_05_CalculateSequenceWithQueue" />
+      <module name="Stacks and Queues" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application._01_ReverseNumbersWithAStack" />
       <item itemvalue="Application._02_BasicStackOperations" />
       <item itemvalue="Application._03_MaximumElement" />
       <item itemvalue="Application._04_BasicQueueOperations" />
+      <item itemvalue="Application._05_CalculateSequenceWithQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._05_CalculateSequenceWithQueue" />
         <item itemvalue="Application._04_BasicQueueOperations" />
         <item itemvalue="Application._03_MaximumElement" />
         <item itemvalue="Application._02_BasicStackOperations" />
@@ -205,7 +225,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32736155" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -223,6 +243,18 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_05_CalculateSequenceWithQueue.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/_01_ReverseNumbersWithAStack.java">
@@ -257,8 +289,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_04_BasicQueueOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        <state relative-caret-position="217">
+          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_05_CalculateSequenceWithQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
