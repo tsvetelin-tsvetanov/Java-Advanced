@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d7d015-de5f-498b-9022-e307e2b5517f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_06_TruckTour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_07_BalancedParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_08_RecursiveFibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stacks and Queues/_06_TruckTour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stacks and Queues/_06_TruckTour.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_01_ReverseNumbersWithAStack.java">
+        <entry file="file://$PROJECT_DIR$/src/_06_TruckTour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state>
+              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,14 +29,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/_06_TruckTour.java">
+        <entry file="file://$PROJECT_DIR$/src/_08_RecursiveFibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="72" column="8" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="25" />
+            <state relative-caret-position="356">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
-                <element signature="e#0#1135#0" expanded="true" />
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#1010#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_07_BalancedParenthesis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -52,34 +62,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_03_MaximumElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="20" column="45" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/_04_BasicQueueOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_05_CalculateSequenceWithQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="696">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,6 +94,8 @@
         <option value="$PROJECT_DIR$/src/_04_BasicQueueOperations.java" />
         <option value="$PROJECT_DIR$/src/_05_CalculateSequenceWithQueue.java" />
         <option value="$PROJECT_DIR$/src/_06_TruckTour.java" />
+        <option value="$PROJECT_DIR$/src/_07_BalancedParenthesis.java" />
+        <option value="$PROJECT_DIR$/src/_08_RecursiveFibonacci.java" />
       </list>
     </option>
   </component>
@@ -144,7 +132,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546597733310" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546858533409" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -160,21 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._06_TruckTour">
-    <configuration name="_02_BasicStackOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_BasicStackOperations" />
-      <module name="Stacks and Queues" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_03_MaximumElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_03_MaximumElement" />
-      <module name="Stacks and Queues" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._08_RecursiveFibonacci">
     <configuration name="_04_BasicQueueOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_04_BasicQueueOperations" />
       <module name="Stacks and Queues" />
@@ -196,20 +170,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_07_BalancedParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_07_BalancedParenthesis" />
+      <module name="Stacks and Queues" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_08_RecursiveFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_08_RecursiveFibonacci" />
+      <module name="Stacks and Queues" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application._02_BasicStackOperations" />
-      <item itemvalue="Application._03_MaximumElement" />
       <item itemvalue="Application._04_BasicQueueOperations" />
       <item itemvalue="Application._05_CalculateSequenceWithQueue" />
       <item itemvalue="Application._06_TruckTour" />
+      <item itemvalue="Application._07_BalancedParenthesis" />
+      <item itemvalue="Application._08_RecursiveFibonacci" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._08_RecursiveFibonacci" />
+        <item itemvalue="Application._07_BalancedParenthesis" />
         <item itemvalue="Application._06_TruckTour" />
         <item itemvalue="Application._05_CalculateSequenceWithQueue" />
         <item itemvalue="Application._04_BasicQueueOperations" />
-        <item itemvalue="Application._03_MaximumElement" />
-        <item itemvalue="Application._02_BasicStackOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +227,7 @@
     <frame x="67" y="167" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22238164" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22186752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -291,10 +279,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/_03_MaximumElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="20" column="45" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_04_BasicQueueOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_05_CalculateSequenceWithQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="696">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -311,33 +319,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_03_MaximumElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/_04_BasicQueueOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/_06_TruckTour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="72" column="8" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="25" />
+        <state>
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
           <folding>
-            <element signature="e#0#1135#0" expanded="true" />
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_07_BalancedParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_08_RecursiveFibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#1010#0" expanded="true" />
           </folding>
         </state>
       </provider>
