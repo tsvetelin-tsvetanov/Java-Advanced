@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d7d015-de5f-498b-9022-e307e2b5517f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_07_BalancedParenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_RecursiveFibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_09_StackFibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_10_SimpleTextEditor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Stacks and Queues/_06_TruckTour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stacks and Queues/_06_TruckTour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Stacks and Queues/_08_RecursiveFibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Stacks and Queues/_08_RecursiveFibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_08_RecursiveFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_08_RecursiveFibonacci.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,13 +29,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_08_RecursiveFibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            <state relative-caret-position="168">
+              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="46" />
               <folding>
                 <element signature="e#0#1010#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_09_StackFibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="9" column="18" selection-start-line="9" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_10_SimpleTextEditor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#1108#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +122,8 @@
         <option value="$PROJECT_DIR$/src/_06_TruckTour.java" />
         <option value="$PROJECT_DIR$/src/_07_BalancedParenthesis.java" />
         <option value="$PROJECT_DIR$/src/_08_RecursiveFibonacci.java" />
+        <option value="$PROJECT_DIR$/src/_09_StackFibonacci.java" />
+        <option value="$PROJECT_DIR$/src/_10_SimpleTextEditor.java" />
       </list>
     </option>
   </component>
@@ -132,7 +160,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546858533409" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546946345248" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -148,21 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._08_RecursiveFibonacci">
-    <configuration name="_04_BasicQueueOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_04_BasicQueueOperations" />
-      <module name="Stacks and Queues" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_05_CalculateSequenceWithQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_CalculateSequenceWithQueue" />
-      <module name="Stacks and Queues" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._10_SimpleTextEditor">
     <configuration name="_06_TruckTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_06_TruckTour" />
       <module name="Stacks and Queues" />
@@ -184,20 +198,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_09_StackFibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_09_StackFibonacci" />
+      <module name="Stacks and Queues" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_10_SimpleTextEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_SimpleTextEditor" />
+      <module name="Stacks and Queues" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application._04_BasicQueueOperations" />
-      <item itemvalue="Application._05_CalculateSequenceWithQueue" />
       <item itemvalue="Application._06_TruckTour" />
       <item itemvalue="Application._07_BalancedParenthesis" />
       <item itemvalue="Application._08_RecursiveFibonacci" />
+      <item itemvalue="Application._09_StackFibonacci" />
+      <item itemvalue="Application._10_SimpleTextEditor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._10_SimpleTextEditor" />
+        <item itemvalue="Application._09_StackFibonacci" />
         <item itemvalue="Application._08_RecursiveFibonacci" />
         <item itemvalue="Application._07_BalancedParenthesis" />
         <item itemvalue="Application._06_TruckTour" />
-        <item itemvalue="Application._05_CalculateSequenceWithQueue" />
-        <item itemvalue="Application._04_BasicQueueOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +272,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -264,6 +292,20 @@
           <line>26</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/_09_StackFibonacci.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/_08_RecursiveFibonacci.java</url>
+          <line>25</line>
+          <properties class="_08_RecursiveFibonacci" method="getFibonacci">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -329,6 +371,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/_08_RecursiveFibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#1010#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_09_StackFibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="18" selection-start-line="9" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/_07_BalancedParenthesis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -336,12 +398,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/_08_RecursiveFibonacci.java">
+    <entry file="file://$PROJECT_DIR$/src/_10_SimpleTextEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state relative-caret-position="394">
+          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
           <folding>
-            <element signature="e#0#1010#0" expanded="true" />
+            <element signature="e#0#1108#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

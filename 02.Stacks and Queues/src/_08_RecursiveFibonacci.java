@@ -18,16 +18,16 @@ import java.util.Scanner;
 public class _08_RecursiveFibonacci {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Integer fibonacciIndex = Integer.parseInt(scan.nextLine());
-
+        int fibonacciIndex = Integer.parseInt(scan.nextLine());
+        System.out.println(getFibonacci(fibonacciIndex));
 
     }
 
-    public static void rec(int counter){
-        if(counter == 0 || counter == 1){
-            System.out.println(1);
+    static long getFibonacci(int n){
+        if(n == 0 || n == 1) {
+            return 1;
         } else {
-
+            return getFibonacci(n - 1) + getFibonacci(n - 2);
         }
     }
 }
