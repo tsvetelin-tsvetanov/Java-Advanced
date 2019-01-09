@@ -29,30 +29,31 @@ public class _10_SimpleTextEditor {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine());
-        StringBuilder text = new StringBuilder();
-        Stack<StringBuilder> stack = new Stack<>();
-
-        //TODO: stack.push overwrites the value of StringBuilder text.
+        Stack<String> stack = new Stack<>();
 
         for (int i = 0; i < n; i++) {
             String[] input = scan.nextLine().split("\\s+");
             switch (input[0]){
                 case "1":
-                    text.append(input[1]);
-                    stack.push(text);
+                    if(stack.empty()){
+                        stack.push(input[1]);
+                    } else {
+                        stack.push(stack.peek().concat(input[1]));
+                    }
                     break;
                 case "2":
-                    text.delete(text.length() - Integer.parseInt(input[1]), text.length());
-                    stack.push(text);
+                    if(!stack.empty()){
+                        stack.push(stack.peek().substring(0,
+                                stack.peek().length() - Integer.parseInt(input[1])));
+                    }
                     break;
                 case "3":
-                    System.out.println(text.charAt(Integer.parseInt(input[1]) - 1));
+                    System.out.println(stack.peek().charAt(Integer.parseInt(input[1]) - 1));
                     break;
                 case "4":
-                    text = stack.pop();
+                    stack.pop();
                     break;
             }
         }
-        System.out.println("end");
     }
 }
