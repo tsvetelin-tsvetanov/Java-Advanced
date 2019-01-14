@@ -1,0 +1,35 @@
+import java.util.LinkedHashMap;
+import java.util.Scanner;
+//You are given a sequence of strings, each on a new line.
+// Every odd line on the console is representing a resource
+// (e.g. Gold, Silver, Copper, and so on) , and every even – quantity.
+// Your task is to collect the resources and print them each on a new line.
+//Print the resources and their quantities in format:
+//{resource} –> {quantity}
+//The quantities inputs will be in the range [1 … 2 000 000 000]
+
+public class _06_AMinerTask {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        LinkedHashMap<String, Integer> resources = new LinkedHashMap<>();
+
+        String input = scan.nextLine();
+        while(!input.equals("stop")){
+            String resource = input;
+            int quantity = Integer.parseInt(scan.nextLine());
+
+            if(!resources.containsKey(resource)){
+                resources.put(resource, quantity);
+            } else {
+                resources.put(resource, resources.get(resource) + quantity);
+            }
+
+            input = scan.nextLine();
+        }
+
+        for (String resource : resources.keySet()) {
+            System.out.printf("%s -> %d\n", resource, resources.get(resource));
+        }
+    }
+}
