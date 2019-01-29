@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36cad2f4-d30b-474f-8753-9f2ed4baf1b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/_11_LogsAggregator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_12_LegendaryFarming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BashSoft/src/Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_10_PopulationCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10_PopulationCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.Sets and Maps/_10_PopulationCounter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/03.Sets and Maps/_10_PopulationCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/03.Sets and Maps/_10_PopulationCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BashSoft/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BashSoft/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,11 +69,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_10_PopulationCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="-649">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/_11_LogsAggregator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/_12_LegendaryFarming.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3249#3277#0" expanded="true" />
+                <element signature="method#checkLegendary#0;class#_12_LegendaryFarming#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,13 +129,14 @@
         <option value="$PROJECT_DIR$/src/_08_HandsOfCards.java" />
         <option value="$PROJECT_DIR$/src/_09_UserLogs.java" />
         <option value="$PROJECT_DIR$/src/_10_PopulationCounter.java" />
+        <option value="$PROJECT_DIR$/src/_11_LogsAggregator.java" />
+        <option value="$PROJECT_DIR$/src/_12_LegendaryFarming.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="230" />
-    <option name="y" value="355" />
-    <option name="width" value="640" />
+    <option name="y" value="140" />
+    <option name="width" value="1366" />
     <option name="height" value="555" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -112,10 +144,29 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="03.Sets and Maps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03.Sets and Maps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="03.Sets and Maps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="03.Sets and Maps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547632857427" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548759123107" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -129,21 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._10_PopulationCounter">
-    <configuration name="_06_AMinerTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_06_AMinerTask" />
-      <module name="03.Sets and Maps" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_07_FixEmails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_07_FixEmails" />
-      <module name="03.Sets and Maps" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._12_LegendaryFarming">
     <configuration name="_08_HandsOfCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_08_HandsOfCards" />
       <module name="03.Sets and Maps" />
@@ -165,13 +202,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_11_LogsAggregator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11_LogsAggregator" />
+      <module name="03.Sets and Maps" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_12_LegendaryFarming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_12_LegendaryFarming" />
+      <module name="03.Sets and Maps" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._12_LegendaryFarming" />
+        <item itemvalue="Application._11_LogsAggregator" />
         <item itemvalue="Application._10_PopulationCounter" />
         <item itemvalue="Application._09_UserLogs" />
         <item itemvalue="Application._08_HandsOfCards" />
-        <item itemvalue="Application._07_FixEmails" />
-        <item itemvalue="Application._06_AMinerTask" />
       </list>
     </recent_temporary>
   </component>
@@ -315,8 +366,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_10_PopulationCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="-649">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_11_LogsAggregator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/_12_LegendaryFarming.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3249#3277#0" expanded="true" />
+            <element signature="method#checkLegendary#0;class#_12_LegendaryFarming#0" />
+          </folding>
         </state>
       </provider>
     </entry>
