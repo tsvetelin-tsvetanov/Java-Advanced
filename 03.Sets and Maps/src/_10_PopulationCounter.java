@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 //So many people! It’s hard to count them all. But that’s your job as a statistician. You get raw
 // data for a given city and you need to aggregate it.
@@ -28,6 +28,26 @@ import java.util.Scanner;
 public class _10_PopulationCounter {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        LinkedHashMap<String, LinkedHashMap<String, Long>> populationMap = new LinkedHashMap<>();
+
+        String input = scan.nextLine();
+        while (!input.equals("report")) {
+            String[] params = input.split("\\|");
+            String city = params[0];
+            String country = params[1];
+            Long population = Long.parseLong(params[2]);
+
+            if (!populationMap.containsKey(country)) {
+                populationMap.put(country, new LinkedHashMap<>());
+                populationMap.get(country).put(city, population);
+            } else {
+                if (!populationMap.get(country).containsKey(city)) {
+                    populationMap.get(country).put(city, population);
+                }
+                input = scan.nextLine();
+            }
+        }
 
     }
+
 }

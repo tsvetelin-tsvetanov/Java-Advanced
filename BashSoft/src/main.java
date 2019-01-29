@@ -1,5 +1,8 @@
 public class main {
     public static void main(String[] args) {
-        IOManager.traverseDirectory("/home");
+        //IOManager.traverseDirectory("/home");
+
+        StudentsRepository.initializeData();
+        StudentsRepository.getStudentsByCourse("Unity");
     }
 }

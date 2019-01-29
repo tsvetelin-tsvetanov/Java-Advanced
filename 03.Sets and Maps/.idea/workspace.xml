@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36cad2f4-d30b-474f-8753-9f2ed4baf1b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_06_AMinerTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_07_FixEmails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_08_HandsOfCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_09_UserLogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_10_PopulationCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_10_PopulationCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10_PopulationCounter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_06_AMinerTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
+            <state relative-caret-position="264">
               <caret line="12" column="18" selection-start-line="12" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -33,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_07_FixEmails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
+            <state relative-caret-position="216">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_08_HandsOfCards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-end-line="21" />
+            <state relative-caret-position="480">
+              <caret line="20" column="32" selection-start-line="20" selection-end-line="21" />
               <folding>
                 <element signature="method#calculateScore#0;class#_08_HandsOfCards#0" />
                 <element signature="method#getPower#0;class#_08_HandsOfCards#0" />
@@ -59,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/_09_UserLogs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="43" column="20" selection-start-line="43" selection-end-line="44" />
+            <state relative-caret-position="1608">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/_10_PopulationCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="336">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -116,29 +112,10 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="03.Sets and Maps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03.Sets and Maps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="03.Sets and Maps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03.Sets and Maps" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547461692721" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547632857427" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,14 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._09_UserLogs">
-    <configuration name="_05_Phonebook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_05_Phonebook" />
-      <module name="03.Sets and Maps" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._10_PopulationCounter">
     <configuration name="_06_AMinerTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_06_AMinerTask" />
       <module name="03.Sets and Maps" />
@@ -188,13 +158,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_10_PopulationCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10_PopulationCounter" />
+      <module name="03.Sets and Maps" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._10_PopulationCounter" />
         <item itemvalue="Application._09_UserLogs" />
         <item itemvalue="Application._08_HandsOfCards" />
         <item itemvalue="Application._07_FixEmails" />
         <item itemvalue="Application._06_AMinerTask" />
-        <item itemvalue="Application._05_Phonebook" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +190,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="140" width="1366" height="770" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25378788" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -223,7 +201,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,7 +273,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_06_AMinerTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
+        <state relative-caret-position="264">
           <caret line="12" column="18" selection-start-line="12" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -305,8 +283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_07_FixEmails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="216">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -315,8 +293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_08_HandsOfCards.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-end-line="21" />
+        <state relative-caret-position="480">
+          <caret line="20" column="32" selection-start-line="20" selection-end-line="21" />
           <folding>
             <element signature="method#calculateScore#0;class#_08_HandsOfCards#0" />
             <element signature="method#getPower#0;class#_08_HandsOfCards#0" />
@@ -327,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_09_UserLogs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="43" column="20" selection-start-line="43" selection-end-line="44" />
+        <state relative-caret-position="1608">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -337,8 +315,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/_10_PopulationCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="336">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
